@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Magic Secret</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+//Ready"/"Discord Button:
+$(document).ready(function(){
+$(".hmpg").show();
+$(".Ds").hide();
+$(".Ampg").hide();
+  $("#Dc").click(function(){
+    $(".hmpg").hide();
+	$(".Ds").show();
+	$(".Ampg").hide();
+  });
+});
+
+//Home Button:
+$(document).ready(function(){
+  $("#Hm").click(function(){
+    $(".hmpg").show();
+	$(".Ds").hide();
+	$(".Ampg").hide();
+  });
+});
+
+//About Me Page:
+$(document).ready(function(){
+  $("#Am").click(function(){
+    $(".hmpg").hide();
+	$(".Ds").hide();
+	$(".Ampg").hide();
+  });
+});
+</script>
+
+<h1 style="color:LawnGreen; text-align:center;">Magic Secret</h1>
+<button id="Hm" style="color:Red; background-color:Green; font-size:130%;"><b>Home</b></button>
+<button id="Dc" style="color:DodgerBlue; background-color:Green; font-size:130%;"><b>Discord</b></button>
+<!--Start Working on About Me button-->
+<button id="Am" style="color:Pink; background-color:Green; font-size:130%;"><b>About Me</b></button>
+<div class="hmpg">
+<p style="font-size:150%;">Welcome to the MagicSecret Webpage, here you can find all the highlighted MagicSecret events.<br>You can also find some <em>Secrets</em> along the way.</p>
+<p style="color:Orange; font-size:250%;">Youtube Channel:
+<a href="https://www.youtube.com/channel/UCpg0wZtSD154LamwOxdM0ew?view_as=subscriber" class="hmpg" style="color:Orange; font-size:100%;">MagicSecret</a>
+<p style="color:Pink; font-size:250%;">Mixer Channel:
+<a href="http://mixer.com/MagicSecret" style="color:Pink; font-size:100%;">MagicSecret</a>
+</div>
+
+<!--Discord Page-->
+<div class="Ds">
+<h1 style="color:DarkSlateBlue; text-align:center;">Discord</h1>
+<p style="font-size:150%;">MagicSecret has a discord, he has a few discords.<br>List of Discords:</p>
+<ul style="font-size:130%;">
+<li>Parasteed Central</li>
+<li>MagicSecret's Fan Discord</li>
+<li>SoaringShips</li>
+</ul>
+</div>
+<!--About Me Page-->
+<div class="Ampg">
+<h1>About MagicSecret<h1>
+<p>MagicSecret plays Minecraft PC & PE.<br>He has 3 different other names.<br>
+</div>
+</body>
+</html>
